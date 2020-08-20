@@ -1,0 +1,77 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    width:1440px;
+    background:rgb(63, 60, 60);
+    overflow: hidden;
+    }
+.container{
+    overflow: hidden;
+    float:center;
+    width: 700px ;
+    height: 240px;
+    margin:200px;
+    margin-left: 425px;
+    border:transparent;
+    background-image: url(images/fondoblanco.png);
+    border-radius: 5%;
+    padding-left: 0;
+     
+}
+.elemento1, .elemento2, .michelle, .descripcion, .boton{
+    float: left;
+}
+.imagenizquierda{
+    width: 250px;
+    height: 240px;
+}
+.elemento2{
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    font-size: 16px;
+    font-family:verdana; 
+    background: white;  
+}
+
+.titulo, .contenido, .base{
+text-align: justify;
+padding: 3px;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    padding: 5px;
+}
+.base{
+    overflow: hidden;
+}
+.descripcion{
+    padding: 10px;
+}
+.boton{
+    float: right;
+    margin:10px;
+    background-image: url(images/icon-share-util.svg);
+    width: 15px;
+    height:13px;
+  border: transparent;
+  border-radius: 100%;
+}
+.titulo {
+    font-size:15px;
+    font-weight: 700;
+}
+.contenido{
+    font-size: 12px;
+}
+.nombre{
+    font-size: 13px;
+    font-weight: 600;
+}
+.fecha{
+    font-size:10px;
+}
